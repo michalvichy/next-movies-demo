@@ -13,7 +13,7 @@ function IndexPage({ error, details }) {
           <h2>
             {details.Title} ({details.Year})
           </h2>
-          <p>{details.Director}</p>
+          <p>Author: {details.Director}</p>
         </>
       )}
     </>
